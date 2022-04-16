@@ -1,8 +1,4 @@
 import hashlib
-from staticfg import CFGBuilder
-
-cfg = CFGBuilder().build_from_file('login function', 'logintesting.py')
-cfg.build_visual('loginfunction', 'png')
 
 
 def signup():
